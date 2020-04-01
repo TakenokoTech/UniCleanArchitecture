@@ -2,26 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c0731c5-252d-4135-88ff-ad2a0aeb5cf6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Prefabs/CharacterPrefab.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Prefabs/CharacterPrefab.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Character.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Human.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Human.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/IHuman.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/IHuman.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Installer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/MainScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/MainScript.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/MonoInstaller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/ScriptableObjectInstaller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/InitTestScene637213911577105959.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/InitTestScene637213911577105959.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Project.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Project.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Scripts/HumanIntegrationTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Scripts/HumanIntegrationTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Scripts/HumanUnitTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Scripts/HumanUnitTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Tests.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Tests.asmdef.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UniCleanArchitecture/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UniCleanArchitecture/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UniCleanArchitecture/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UniCleanArchitecture/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UniCleanArchitecture/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UniCleanArchitecture/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Main.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Main.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/MainInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Installer/MainInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/MainInstaller.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Installer/MainInstaller.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Character.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Human.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Human.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/IHuman.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/IHuman.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +36,15 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Human.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/ScriptableObjectInstallerBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Installer/MainInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenAutoInjecter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/TestFramework/SceneTestFixture.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Project.asmdef" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenjectSceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/SceneKernel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/MonoInstaller/MainMonoInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/TestFramework/ZenjectIntegrationTestFixture.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenUtilInternal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/SceneContextRegistry.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Character.cs" root0="FORCE_HIGHLIGHTING" />
@@ -47,11 +52,16 @@
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/Assert.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/DiContainer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/ContextEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tests/Scripts/HumanUnitTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/SceneContextEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tests/Tests.asmdef" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/SceneDecoratorContextEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F5B293C7-4049-457C-ABC2-8437C5A76392/ab/b8b1977a/InjectAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tests/Scripts/HumanIntegrationTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/FromBinders/FromBinder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/SceneParentLoading/SceneParentAutomaticLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/zenject.asmdef" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/IHuman.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/SceneContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstaller.cs" root0="FORCE_HIGHLIGHTING" />
@@ -61,18 +71,23 @@
       <list>
         <option value="$PROJECT_DIR$/Packages/manifest.json" />
         <option value="$PROJECT_DIR$/Assets/unitypackage/.gitignore" />
-        <option value="$PROJECT_DIR$/Assets/Plugins/.gitignore" />
         <option value="$PROJECT_DIR$/JetBrains.gitignore" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/MainInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/MainInstallera.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/ScriptableObjectInstaller/MainScriptableObjectInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Installer/MainInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Project/Scripts/IHuman.cs" />
-        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Human.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/MainScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Project/Scripts/MonoInstaller/MainMonoInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/CharacterFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Character.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/.gitignore" />
+        <option value="$PROJECT_DIR$/Assets/Project/Test/MoverTestZenject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/MoverTestZenject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/Scripts/HumanTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/MonoInstaller/MainMonoInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/Scripts/HumanUnitTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/IHuman.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Human.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/Scripts/HumanIntegrationTest.cs" />
       </list>
     </option>
   </component>
@@ -99,7 +114,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -127,6 +142,7 @@
       <updated>1585410730647</updated>
       <workItem from="1585410744676" duration="1789000" />
       <workItem from="1585671079156" duration="4649000" />
+      <workItem from="1585745727844" duration="13119000" />
     </task>
     <servers />
   </component>
@@ -152,10 +168,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="638" y="250" key="SettingsEditor" timestamp="1585676391677">
+    <state x="1715" y="882" key="SettingsEditor" timestamp="1585752648349">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
-    <state x="638" y="250" key="SettingsEditor/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1585676391677" />
+    <state x="1715" y="882" key="SettingsEditor/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1585752648349" />
     <state x="349" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1585412992132" />
     <state x="-889" y="760" width="697" height="804" key="find.popup" timestamp="1585671525887">
       <screen x="-1080" y="222" width="1080" height="1870" />

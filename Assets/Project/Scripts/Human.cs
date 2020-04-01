@@ -4,7 +4,9 @@
     {
         public string GetName()
         {
-            return "I am Human.";
+            return "human";
         }
+
+        public void Reset() { }
     }
 }
