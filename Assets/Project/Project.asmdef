@@ -2,7 +2,8 @@
     "name": "Project",
     "references": [
         "Zenject",
-        "Zenject-Editor"
+        "Zenject-Editor",
+        "UniRx"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

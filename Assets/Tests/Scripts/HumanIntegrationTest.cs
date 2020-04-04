@@ -26,8 +26,7 @@ namespace Tests.Scripts
             Container.Bind<IHuman>().FromInstance(_human);
             PostInstall();
         }
-
-
+        
         [TearDown]
         public void Finish()
         {

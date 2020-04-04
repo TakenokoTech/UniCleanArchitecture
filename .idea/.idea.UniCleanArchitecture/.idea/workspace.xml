@@ -2,28 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c0731c5-252d-4135-88ff-ad2a0aeb5cf6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/InitTestScene637213911577105959.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/InitTestScene637213911577105959.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Project.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Project/Project.asmdef.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tests.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tests/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tests/Scripts/HumanIntegrationTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tests/Scripts/HumanIntegrationTest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tests/Scripts/HumanUnitTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tests/Scripts/HumanUnitTest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tests/Tests.asmdef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Tests/Tests.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/InitTestScene637216373324898227.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/InitTestScene637216373324898227.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Entity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Entity/Usecase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Entity/Usecase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Scripts/Usecase.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Scripts/Usecase/SampleUsecaseTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Scripts/Usecase/SampleUsecaseTest.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UniCleanArchitecture/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UniCleanArchitecture/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UniCleanArchitecture/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UniCleanArchitecture/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UniCleanArchitecture/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UniCleanArchitecture/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Character.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Character.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Human.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Human.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/IHuman.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/IHuman.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Project.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Project.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Scripts/HumanIntegrationTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tests/Scripts/HumanIntegrationTest.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +24,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstallerBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Observable.Creation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Human.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/ScriptableObjectInstallerBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
@@ -41,17 +33,25 @@
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenAutoInjecter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/TestFramework/SceneTestFixture.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Project.asmdef" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/440D1D09-336D-46EE-B6BA-2229A55AC755/88/95f9545c/Nullable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenjectSceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/SceneKernel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/MonoInstaller/MainMonoInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/TestFramework/ZenjectIntegrationTestFixture.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tests/Scripts/Usecase/SampleUsecaseTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Observer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenUtilInternal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/59819BE1-42C3-4115-ADE6-88F6962021F1/93/acdbf08c/Assert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/440D1D09-336D-46EE-B6BA-2229A55AC755/09/acf957a8/Exception.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/SceneContextRegistry.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Character.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/MainScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/Assert.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Subjects/Subject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/DiContainer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/ContextEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Entity/Usecase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/440D1D09-336D-46EE-B6BA-2229A55AC755/8a/5da9dfae/Single.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tests/Scripts/HumanUnitTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/Editors/SceneContextEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tests/Tests.asmdef" root0="FORCE_HIGHLIGHTING" />
@@ -59,7 +59,9 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F5B293C7-4049-457C-ABC2-8437C5A76392/ab/b8b1977a/InjectAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Tests/Scripts/HumanIntegrationTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Binding/Binders/FromBinders/FromBinder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Usecase/Usecase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Editor/SceneParentLoading/SceneParentAutomaticLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Usecase/SampleUsecase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/zenject.asmdef" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/IHuman.cs" root0="FORCE_HIGHLIGHTING" />
@@ -88,6 +90,11 @@
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/IHuman.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Human.cs" />
         <option value="$PROJECT_DIR$/Assets/Tests/Scripts/HumanIntegrationTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Subjects/Subject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Entity/Usecase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Usecase/Usecase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Usecase/SampleUsecase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/Scripts/Usecase/SampleUsecaseTest.cs" />
       </list>
     </option>
   </component>
@@ -123,10 +130,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="34884">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="34884" />
       <method v="2" />
     </configuration>
   </component>
@@ -142,7 +149,8 @@
       <updated>1585410730647</updated>
       <workItem from="1585410744676" duration="1789000" />
       <workItem from="1585671079156" duration="4649000" />
-      <workItem from="1585745727844" duration="13119000" />
+      <workItem from="1585745727844" duration="13319000" />
+      <workItem from="1585974277345" duration="13674000" />
     </task>
     <servers />
   </component>
@@ -150,7 +158,7 @@
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="PlayMode" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -168,14 +176,92 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1491" height="606" key="GridCell.Tab.0.bottom" timestamp="1586007998789">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1491" height="606" key="GridCell.Tab.0.bottom/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1586007998789" />
+    <state width="1491" height="606" key="GridCell.Tab.0.center" timestamp="1586007998789">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1491" height="606" key="GridCell.Tab.0.center/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1586007998789" />
+    <state width="1491" height="606" key="GridCell.Tab.0.left" timestamp="1586007998789">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1491" height="606" key="GridCell.Tab.0.left/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1586007998789" />
+    <state width="1491" height="606" key="GridCell.Tab.0.right" timestamp="1586007998789">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1491" height="606" key="GridCell.Tab.0.right/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1586007998789" />
+    <state width="1491" height="606" key="GridCell.Tab.1.bottom" timestamp="1586007998790">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1491" height="606" key="GridCell.Tab.1.bottom/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1586007998790" />
+    <state width="1491" height="606" key="GridCell.Tab.1.center" timestamp="1586007998789">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1491" height="606" key="GridCell.Tab.1.center/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1586007998789" />
+    <state width="1491" height="606" key="GridCell.Tab.1.left" timestamp="1586007998789">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1491" height="606" key="GridCell.Tab.1.left/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1586007998789" />
+    <state width="1491" height="606" key="GridCell.Tab.1.right" timestamp="1586007998789">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1491" height="606" key="GridCell.Tab.1.right/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1586007998789" />
+    <state width="1491" height="606" key="GridCell.Tab.2.bottom" timestamp="1586007998790">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1491" height="606" key="GridCell.Tab.2.bottom/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1586007998790" />
+    <state width="1491" height="606" key="GridCell.Tab.2.center" timestamp="1586007998790">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1491" height="606" key="GridCell.Tab.2.center/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1586007998790" />
+    <state width="1491" height="606" key="GridCell.Tab.2.left" timestamp="1586007998790">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1491" height="606" key="GridCell.Tab.2.left/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1586007998790" />
+    <state width="1491" height="606" key="GridCell.Tab.2.right" timestamp="1586007998790">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1491" height="606" key="GridCell.Tab.2.right/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1586007998790" />
+    <state width="1491" height="606" key="GridCell.Tab.3.bottom" timestamp="1586007998790">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1491" height="606" key="GridCell.Tab.3.bottom/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1586007998790" />
+    <state width="1491" height="606" key="GridCell.Tab.3.center" timestamp="1586007998790">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1491" height="606" key="GridCell.Tab.3.center/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1586007998790" />
+    <state width="1491" height="606" key="GridCell.Tab.3.left" timestamp="1586007998790">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1491" height="606" key="GridCell.Tab.3.left/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1586007998790" />
+    <state width="1491" height="606" key="GridCell.Tab.3.right" timestamp="1586007998790">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state width="1491" height="606" key="GridCell.Tab.3.right/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1586007998790" />
+    <state x="2138" y="548" key="RiderGenerateDialog" timestamp="1586005443650">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state x="2138" y="548" key="RiderGenerateDialog/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1586005443650" />
     <state x="1715" y="882" key="SettingsEditor" timestamp="1585752648349">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state x="1715" y="882" key="SettingsEditor/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1585752648349" />
     <state x="349" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1585412992132" />
-    <state x="-889" y="760" width="697" height="804" key="find.popup" timestamp="1585671525887">
-      <screen x="-1080" y="222" width="1080" height="1870" />
+    <state x="543" y="486" width="1983" height="726" key="find.popup" timestamp="1586006847145">
+      <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state x="-889" y="760" width="697" height="804" key="find.popup/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@-1080.222.1080.1870" timestamp="1585671525887" />
+    <state x="543" y="486" width="1983" height="726" key="find.popup/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1586006847145" />
+    <state x="-840" y="674" key="run.anything.popup" timestamp="1586004254953">
+      <screen x="-1080" y="222" width="1080" height="1870" />
+    </state>
+    <state x="-840" y="674" key="run.anything.popup/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@-1080.222.1080.1870" timestamp="1586004254953" />
+    <state x="1961" y="406" key="run.anything.popup/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1585991998006" />
+    <state x="1966" y="392" width="672" height="678" key="search.everywhere.popup" timestamp="1585982445108">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state x="1966" y="392" width="672" height="678" key="search.everywhere.popup/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1585982445108" />
   </component>
 </project>

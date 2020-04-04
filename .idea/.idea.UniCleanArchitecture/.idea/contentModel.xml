@@ -799,6 +799,9 @@
           </e>
         </e>
         <e p="Project" t="Include">
+          <e p="Entity" t="Include">
+            <e p="Usecase.cs" t="Include" />
+          </e>
           <e p="Project.asmdef" t="Include" />
           <e p="Scripts" t="Include">
             <e p="Character.cs" t="Include" />
@@ -811,12 +814,19 @@
             <e p="MonoInstaller" t="Include">
               <e p="MainMonoInstaller.cs" t="Include" />
             </e>
+            <e p="Usecase" t="Include">
+              <e p="SampleUsecase.cs" t="Include" />
+              <e p="Usecase.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="Tests" t="Include">
           <e p="Scripts" t="Include">
             <e p="HumanIntegrationTest.cs" t="Include" />
             <e p="HumanUnitTest.cs" t="Include" />
+            <e p="Usecase" t="Include">
+              <e p="SampleUsecaseTest.cs" t="Include" />
+            </e>
           </e>
           <e p="Tests.asmdef" t="Include" />
         </e>
