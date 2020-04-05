@@ -19,7 +19,7 @@ jobs:
     - run: |
           CURRENT_DIR=`pwd`
           echo ${CURRENT_DIR}
-          /opt/Unity/Editor/Unity -quit -batchmode -nographics -silent-crashes -logFile -projectPath GithubActions -buildWindows64Player ${CURRENT_DIR}/Windows/windows.exe || exit 0
+          /opt/Unity/Editor/Unity -quit -batchmode -nographics -silent-crashes -logFile -projectPath . -buildWindows64Player ${CURRENT_DIR}/Windows/windows.exe || exit 0
     - uses: actions/upload-artifact@master
       with:
         name: WindowsBuild
