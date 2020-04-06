@@ -10,41 +10,18 @@ namespace Tests.Scripts.Usecase
     [TestFixture]
     public class SampleUsecaseTest : ZenjectUnitTestFixture
     {
+        private readonly TimeSpan _waitTime = new TimeSpan(0, 0, 0, 1, 0);
 
-        
         [Test]
         public void ExecuteTest()
         {
-            var observer = new TestObserver<SampleUsecase.Result>();
             var sampleUsecase = new SampleUsecase();
-            
-            sampleUsecase.Source.Subscribe(observer);
-            sampleUsecase.Execute(new SampleUsecase.Param());
+            sampleUsecase.Execute(new SampleUsecase.Param {param1 = "p1"});
+            var result = sampleUsecase.Source.Wait(_waitTime);
 
-            Assert.IsNotNull(observer.Value);
-            Assert.IsNull(observer.Error);
-            Assert.AreEqual(observer.Value.GetOrNull(), new SampleUsecase.Result());
-        }
-    }
-
-    internal class TestObserver<T> : IObserver<Usecase<T>> where T : struct
-    {
-        public Usecase<T> Value { get; private set; } = null;
-        public Exception Error { get; private set; } = null;
-        
-        public void OnCompleted()
-        {
-            
-        }
-
-        public void OnError(Exception error)
-        {
-            this.Error = error;
-        }
-
-        public void OnNext(Usecase<T> value)
-        {
-            this.Value = value;
+            Assert.IsNotNull(result.GetOrNull());
+            Assert.IsNull(result.ExceptionOrNull());
+            Assert.AreEqual(result.GetOrNull()?.Value, "OK");
         }
     }
 }

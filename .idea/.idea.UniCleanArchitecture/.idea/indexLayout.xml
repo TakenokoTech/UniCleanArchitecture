@@ -12,6 +12,9 @@
       <Path>Library/PackageCache/com.unity.timeline@1.2.13</Path>
       <Path>Packages</Path>
       <Path>ProjectSettings</Path>
+      <Path>../../Library/Unity/cache/packages/packages.unity.com/com.unity.ide.rider@2.0.2</Path>
+      <Path>../../Library/Unity/cache/packages/packages.unity.com/com.unity.test-framework@1.1.13</Path>
+      <Path>../../Library/Unity/cache/packages/packages.unity.com/com.unity.textmeshpro@2.0.1</Path>
     </explicitIncludes>
     <explicitExcludes>
       <Path>.git</Path>
