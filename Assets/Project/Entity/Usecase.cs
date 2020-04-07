@@ -4,27 +4,27 @@ using UnityEditor.PackageManager;
 
 namespace Project.Entity
 {
-    public class Pending<TR> : Usecase<TR> where TR : struct
+    public sealed class Pending<TR> : Usecase<TR> where TR : struct
     {
     }
 
-    public class Resolved<TR> : Usecase<TR> where TR : struct
+    public sealed class Resolved<TR> : Usecase<TR> where TR : struct
     {
-        public TR value { get; set; }
+        public TR Value { get; private set; }
 
         public Resolved(TR value)
         {
-            this.value = value;
+            this.Value = value;
         }
     }
 
-    public class Rejected<TR> : Usecase<TR> where TR : struct
+    public sealed class Rejected<TR> : Usecase<TR> where TR : struct
     {
-        public Exception error { get; set; }
+        public Exception Error { get; private set; }
 
         public Rejected(Exception err)
         {
-            error = err;
+            Error = err;
         }
     }
 
@@ -38,7 +38,7 @@ namespace Project.Entity
             try
             {
                 var resolve = (Resolved<TR>) this;
-                return resolve.value;
+                return resolve.Value;
             }
             catch (Exception e)
             {
@@ -51,7 +51,7 @@ namespace Project.Entity
             try
             {
                 var reject = (Rejected<TR>) this;
-                return reject.error;
+                return reject.Error;
             }
             catch (Exception e)
             {

@@ -5,7 +5,7 @@ namespace Project.Scripts.MonoInstaller
 {
     public class MainMonoInstaller : MonoInstaller<MainMonoInstaller>
     {
-        [SerializeField] private GameObject characterPrefab;
+        [SerializeField] private UnityEngine.GameObject characterPrefab;
         
         public override void InstallBindings()
         {

@@ -3,7 +3,8 @@
     "references": [
         "Zenject",
         "Zenject-Editor",
-        "UniRx"
+        "UniRx",
+        "UniRx.Async"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

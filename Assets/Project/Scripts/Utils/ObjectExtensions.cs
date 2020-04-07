@@ -6,8 +6,8 @@ namespace Project.Scripts.Utils
 {
     public static class ObjectExtensions
     {
-        private const string Separator = ","; // 区切り記号として使用する文字列
-        private const string Format = "{0}={1}"; // 複合書式指定文字列
+        private const string Separator = ",";
+        private const string Format = "{0}={1}";
 
         private static string ToStringFields<T>(this T obj) => string.Join(Separator, obj
             .GetType()

@@ -1,5 +1,6 @@
 ﻿using System;
 using Project.Entity;
+using Project.Scripts.Exception;
 using Project.Scripts.Utils;
 using UniRx;
 using UnityEngine;
@@ -19,22 +20,18 @@ namespace Project.Scripts.Usecase
             _result.OnNext(new Pending<TRes>());
 
             Observable
-                .Create<TRes>(observer =>
+                .Start(() =>
                 {
                     Log.D(Tag, "Create");
-                    observer.OnNext(Call(param));
-                    observer.OnCompleted();
-                    return Disposable.Empty;
+                    Call(param, this.Resolved, this.Rejected);
                 })
                 .SubscribeOn(Scheduler.ThreadPool)
                 .DoOnError(err => _result.OnNext(new Rejected<TRes>(err)))
                 .Subscribe(res =>
-                    {
-                        Log.D(Tag, "onNext");
-                        _result.OnNext(new Resolved<TRes>(res));
-                        _result.OnCompleted();
-                    }
-                );
+                {
+                    Log.D(Tag, "Subscribe");
+                    this.Completed();
+                });
         }
 
         public void Cancel()
@@ -43,10 +40,21 @@ namespace Project.Scripts.Usecase
             _result.OnError(new CanceledException());
         }
 
-        protected abstract TRes Call(TPar param);
+        private Action<TRes> Resolved => ((TRes res) => {
+            Log.D(Tag, "Resolved {0}", res.Dump());
+            _result.OnNext(new Resolved<TRes>(res));
+        });
+        
+        private Action<System.Exception> Rejected => ((System.Exception e) => {
+            Log.D(Tag, "Rejected {0}", e.Message);
+            _result.OnNext(new Rejected<TRes>(e));
+        });
+        
+        private Action Completed => (() => {
+            Log.D(Tag, "Completed");
+            _result.OnCompleted();
+        });
 
-        private class CanceledException : Exception
-        {
-        }
+        protected abstract void Call(TPar param, Action<TRes> resolved, Action<System.Exception> rejected);
     }
 }
