@@ -5,7 +5,7 @@ on: [pull_request]
 jobs:
   build:
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         unity-tag: [2019.3.7f1]
