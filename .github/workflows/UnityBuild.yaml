@@ -25,7 +25,9 @@ jobs:
     - name: test-editmode
       run: |
           /opt/Unity/Editor/Unity -quit -batchmode -nographics -projectPath . -runEditorTests -testPlatform editmode -editorTestsResultFile test-results/results.xml || exit 0
-          echo ls -la
+    - name: result
+      run: |
+          ls -la
     - uses: actions/upload-artifact@master
       with:
         name: Build
