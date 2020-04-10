@@ -4,11 +4,11 @@ on: [pull_request]
 
 jobs:
   editorTestJob:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     container: docker://gableroux/unity3d:${{ matrix.unity-tag }}
     strategy:
       matrix:
-        unity-tag: [2019.3.7f1-windows]
+        unity-tag: [2019.3.7f1]
 
     steps:
     - uses: actions/checkout@master
@@ -19,9 +19,10 @@ jobs:
     - run: |
           CURRENT_DIR=`pwd`
           echo ${CURRENT_DIR}
-          /opt/Unity/Editor/Unity -quit -batchmode -nographics -silent-crashes -logFile -projectPath . -buildWindows64Player ${CURRENT_DIR}/Windows/windows.exe || exit 0
+          echo ls ${CURRENT_DIR}
+          /opt/Unity/Editor/Unity -quit -batchmode -nographics -projectPath . -runEditorTests -testPlatform editmode -editorTestsResultFile test-results/results.xml || exit 0
     - uses: actions/upload-artifact@master
       with:
-        name: WindowsBuild
-        path: Windows
+        name: Build
+        path: test-results
         
