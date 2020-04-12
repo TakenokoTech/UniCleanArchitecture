@@ -1,2 +1,5 @@
-﻿InitTestScene*.unity
+﻿AssetBundle/
+AssetBundle.meta
+
+InitTestScene*.unity
 InitTestScene*.unity.meta

@@ -2,20 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd485348-f4b6-4d24-ad38-ecdcc08a265f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/Android.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/Android/Android" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/Android/Android.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/Android/Android.manifest.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/Android/Android.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/Android/image" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/Android/image.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/Android/image.manifest.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/Android/image.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/NoTarget.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/StandaloneWindows.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/StandaloneWindows/StandaloneWindows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/StandaloneWindows/StandaloneWindows.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/StandaloneWindows/StandaloneWindows.manifest.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/StandaloneWindows/StandaloneWindows.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/StandaloneWindows/image" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/StandaloneWindows/image.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/StandaloneWindows/image.manifest.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/StandaloneWindows/image.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/StandaloneWindows64.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/StandaloneWindows64/StandaloneWindows64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/StandaloneWindows64/StandaloneWindows64.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/StandaloneWindows64/StandaloneWindows64.manifest.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/StandaloneWindows64/StandaloneWindows64.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/StandaloneWindows64/image" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/StandaloneWindows64/image.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/StandaloneWindows64/image.manifest.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/StandaloneWindows64/image.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundle/iOS.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundleResources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundleResources/Image.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundleResources/Image/man.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetBundleResources/Image/man.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor/Scripts/MenuItem.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor/Scripts/MenuItem/BuildAssetBundles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor/Scripts/MenuItem/BuildAssetBundles.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Utils/AssetBundleManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Utils/AssetBundleManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Utils/Prefs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Utils/Prefs.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Editor/EditModeTests.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Editor/EditModeTests.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Editor/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Runtime.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Runtime/Scripts/Utils.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Runtime/Scripts/Utils/AssetBundleManagerTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Runtime/Scripts/Utils/AssetBundleManagerTest.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Runtime/Scripts/Utils/PrefsTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Tests/Runtime/Scripts/Utils/PrefsTest.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UniCleanArchitecture/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UniCleanArchitecture/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UniCleanArchitecture/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UniCleanArchitecture/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UniCleanArchitecture/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UniCleanArchitecture/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UniCleanArchitecture/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UniCleanArchitecture/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Entity/Usecase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Entity/Usecase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Project.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Project.asmdef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/MonoInstaller/MainMonoInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/MonoInstaller/MainMonoInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Usecase/SampleUsecase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Usecase/SampleUsecase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Usecase/Usecase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Usecase/Usecase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Utils/ObjectExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Utils/ObjectExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tests/Scripts/Usecase/SampleUsecaseTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tests/Scripts/Usecase/SampleUsecaseTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tests/Tests.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tests/Tests.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Entity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Entity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Entity/Usecase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Entity/Usecase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Entity/Usecase.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Entity/Usecase.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/MainScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/MainScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project/Scripts/Utils/Log.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Project/Scripts/Utils/Log.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tests/Runtime/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Scripts/HumanIntegrationTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tests/Runtime/Scripts/HumanIntegrationTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Scripts/HumanIntegrationTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tests/Runtime/Scripts/HumanIntegrationTest.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Scripts/HumanUnitTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tests/Runtime/Scripts/HumanUnitTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Scripts/HumanUnitTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tests/Runtime/Scripts/HumanUnitTest.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Scripts/Usecase.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tests/Runtime/Scripts/Usecase.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Scripts/Usecase/SampleUsecaseTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tests/Runtime/Scripts/Usecase/SampleUsecaseTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Scripts/Usecase/SampleUsecaseTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tests/Runtime/Scripts/Usecase/SampleUsecaseTest.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Tests.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tests/Runtime/PlayModeTests.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tests/Tests.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tests/Runtime/PlayModeTests.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,47 +86,65 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Observable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.13/UnityEngine.TestRunner/Utils/TestRunCallbackListener.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Human.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Installer/MainInstaller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Project/Project.asmdef" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/MonoInstaller/MainMonoInstaller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/GameObject/SampleGameObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5406A456-CF73-4443-B3D0-2A7D123287F1/b4/eaa08dba/Exception.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/System/IOptimizedObservable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Tests/Scripts/Usecase/SampleUsecaseTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/437BA245-D840-4784-B9FB-AB9B439AC908/02/9db97950/IObservable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/440D1D09-336D-46EE-B6BA-2229A55AC755/39/187c24b1/Func`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/LifetimeDisposableExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Usecase/UsecaseTask.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/440D1D09-336D-46EE-B6BA-2229A55AC755/42/5c7316b7/Action.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Character.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Subjects/ISubject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/TaskUpdater.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/ThrottleFrame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Exception/ApiException.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/MainScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.3.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/UI/TextEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Subjects/Subject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Utils/ObjectExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5406A456-CF73-4443-B3D0-2A7D123287F1/11/3f714262/Task.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5406A456-CF73-4443-B3D0-2A7D123287F1/73/d7af2780/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/LinqExtensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Project/Entity/Usecase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Tests/Scripts/HumanUnitTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Tests/Tests.asmdef" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D815B7EF-AC42-4EEB-8E05-3965CCCB1F98/d0/1b7139a8/PlayerPrefs.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Entity/Usecase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.3.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Editor/EventSystem/EventSystemEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F50D9332-08F2-4A1B-99C8-1C5022A4E1ED/1d/aaef111f/AssetBundle.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Exception/CanceledException.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/SignalSubscriptionId.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Tests/Scripts/HumanIntegrationTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Usecase/Usecase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.2.13/Editor/Utilities/StyleManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/Context.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Usecase/SampleUsecase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Utils/Prefs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tests/Runtime/Scripts/Utils/AssetBundleManagerTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Operators/Wait.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Observable.Blocking.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/78F1AD0F-25C8-4E3C-A853-E639F50D95F5/00/1f3e2111/AssetBundleBuild.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5406A456-CF73-4443-B3D0-2A7D123287F1/a5/9e2b3fd9/IDisposable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Operators/WithLatestFrom.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Observable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.13/UnityEngine.TestRunner/Utils/TestRunCallbackListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tests/Runtime/PlayModeTests.asmdef" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Project.asmdef" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tests/Editor/EditModeTests.asmdef" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/MonoInstaller/MainMonoInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/GameObject/SampleGameObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/437BA245-D840-4784-B9FB-AB9B439AC908/02/9db97950/IObservable`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Disposables/ICancelable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/MainScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Utils/Log.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Utils/ObjectExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/Utils/AssetBundleManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5406A456-CF73-4443-B3D0-2A7D123287F1/73/d7af2780/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/78F1AD0F-25C8-4E3C-A853-E639F50D95F5/bb/602e90f9/BuildTarget.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Examples/Sample01_ObservableWWW.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.3.7f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Tests/Editor/Text/FontCreatedByScript.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/Signals/Internal/SignalSubscriptionId.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.2.13/Editor/Utilities/StyleManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Examples/Sample07_OrchestratIEnumerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/Contexts/Context.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/440D1D09-336D-46EE-B6BA-2229A55AC755/c1/17fca285/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/78F1AD0F-25C8-4E3C-A853-E639F50D95F5/1d/c492da32/BuildPipeline.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/Scripts/MenuItem/BuildAssetBundles.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Project/Scripts/IHuman.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableTriggerExtensions.Component.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5406A456-CF73-4443-B3D0-2A7D123287F1/a5/9e2b3fd9/IDisposable.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -78,7 +156,6 @@
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/MainInstallera.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/ScriptableObjectInstaller/MainScriptableObjectInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Installer/MainInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Project/Scripts/MainScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/CharacterFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Character.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Test/MoverTestZenject.cs" />
@@ -90,9 +167,7 @@
         <option value="$PROJECT_DIR$/Assets/Tests/Scripts/HumanIntegrationTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Subjects/Subject.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/UniRx/Scripts/Observable.Blocking.cs" />
-        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Utils/Log.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Utils/StringExtension.cs" />
-        <option value="$PROJECT_DIR$/Assets/.gitignore" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Utils/ObjectExtensions.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/MonoInstaller/MainMonoInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Exception/CanceledException.cs" />
@@ -104,6 +179,25 @@
         <option value="$PROJECT_DIR$/Assets/Project/Scripts/Usecase/Usecase.cs" />
         <option value="$PROJECT_DIR$/Assets/Tests/Scripts/Usecase/SampleUsecaseTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Plugins/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Assets/Tests/Scripts/Utils/PrefsTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Utils/Prefs.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Utils/AssetBundleUtils.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Utils/Asset.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/MainScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Entity/BuildTargetEntity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/MenuItem/BuildAssetBundles.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Utils/AssetBundleManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/Scripts/Utils/AssetBundleManagerTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/Scripts/MenuItem/NewTestScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests (EditMode)/Scripts/MenuItem/NewTestScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests (EditMode)/Scripts/NewTestScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests (PalyMode)/Editor/NewTestScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/__Editor/Scripts/MenuItem/BuildAssetBundles.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/Editor/Scripts/MenuItem/NewTestScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Project/Scripts/Utils/Log.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/Scripts/MenuItem/BuildAssetBundles.cs" />
+        <option value="$PROJECT_DIR$/Assets/.gitignore" />
       </list>
     </option>
   </component>
@@ -130,7 +224,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -162,6 +256,11 @@
       <workItem from="1585974277345" duration="13674000" />
       <workItem from="1586187947362" duration="3481000" />
       <workItem from="1586255619442" duration="14622000" />
+      <workItem from="1586302052549" duration="390000" />
+      <workItem from="1586302507830" duration="15702000" />
+      <workItem from="1586496884245" duration="1894000" />
+      <workItem from="1586668678963" duration="9151000" />
+      <workItem from="1586682110355" duration="1195000" />
     </task>
     <servers />
   </component>
@@ -291,17 +390,18 @@
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state x="2138" y="548" key="RiderGenerateDialog/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1586005443650" />
-    <state x="1715" y="882" key="SettingsEditor" timestamp="1585752648349">
+    <state x="1715" y="882" key="SettingsEditor" timestamp="1586357224370">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state x="1715" y="882" key="SettingsEditor/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1585752648349" />
+    <state x="1715" y="882" key="SettingsEditor/0.0.3072.1688/-1080.222.1080.1880@0.0.3072.1688" timestamp="1586357224370" />
     <state x="349" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1585412992132" />
-    <state x="543" y="487" width="1984" height="803" key="find.popup" timestamp="1586262038601">
+    <state x="543" y="486" width="1984" height="803" key="find.popup" timestamp="1586668790523">
       <screen x="0" y="0" width="3072" height="1688" />
     </state>
     <state x="-889" y="760" width="697" height="804" key="find.popup/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@-1080.222.1080.1870" timestamp="1585671525887" />
     <state x="543" y="486" width="1983" height="726" key="find.popup/-1080.222.1080.1870/3840.1066.1920.1040/0.0.3072.1688@0.0.3072.1688" timestamp="1586006847145" />
-    <state x="543" y="487" width="1984" height="803" key="find.popup/0.0.3072.1688/-1080.222.1080.1880@0.0.3072.1688" timestamp="1586262038601" />
+    <state x="543" y="486" width="1984" height="803" key="find.popup/0.0.3072.1688/-1080.222.1080.1880@0.0.3072.1688" timestamp="1586668790523" />
     <state x="297" y="319" width="1085" height="488" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1586078376510" />
     <state x="-840" y="674" key="run.anything.popup" timestamp="1586004254953">
       <screen x="-1080" y="222" width="1080" height="1870" />

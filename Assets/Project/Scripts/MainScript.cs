@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Project.Scripts.Utils;
+using UnityEngine;
 using Zenject;
 
 namespace Project.Scripts
