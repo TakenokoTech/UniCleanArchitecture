@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Threading;
+using System.Threading.Tasks;
 using Runtime.Utils;
+using UniRx.Async;
 
 namespace Runtime.Usecase
 {
@@ -34,7 +36,7 @@ namespace Runtime.Usecase
     {
         private const string Tag = "SampleUsecase";
 
-        protected override Result Call(Param param)
+        protected override async UniTask<Result> Call(Param param)
         {
             Log.D(Tag, "Call. param:{0}", param.Dump());
             Thread.Sleep(100);

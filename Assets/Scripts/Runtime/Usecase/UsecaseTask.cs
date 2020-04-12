@@ -13,11 +13,11 @@ namespace Runtime.Usecase
         public async UniTask<Usecase<TRes>> Execute(TPar param)
         {
             Log.D(Tag, "Execute");
-            return await Task.Run(new Func<Usecase<TRes>>(() =>
+            return await Task.Run(new Func<Task<Usecase<TRes>>>(async () =>
             {
                 try
                 {
-                    return new Resolved<TRes>(Call(param)); 
+                    return new Resolved<TRes>(await Call(param)); 
                 }
                 catch (System.Exception e)
                 {
@@ -31,6 +31,6 @@ namespace Runtime.Usecase
             Log.D(Tag, "Cancel");
         }
 
-        protected abstract TRes Call(TPar param);
+        protected abstract UniTask<TRes> Call(TPar param);
     }
 }

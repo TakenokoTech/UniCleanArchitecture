@@ -925,18 +925,21 @@
             </e>
             <e p="Installer" t="Include">
               <e p="MainInstaller.cs" t="Include" />
-            </e>
-            <e p="MainScript.cs" t="Include" />
-            <e p="MonoInstaller" t="Include">
               <e p="MainMonoInstaller.cs" t="Include" />
             </e>
+            <e p="MainScript.cs" t="Include" />
             <e p="Project.asmdef" t="Include" />
+            <e p="Repository" t="Include">
+              <e p="HumanRepository.cs" t="Include" />
+            </e>
             <e p="Usecase" t="Include">
+              <e p="LoadHumanUsecase.cs" t="Include" />
               <e p="SampleUsecase.cs" t="Include" />
               <e p="Usecase.cs" t="Include" />
               <e p="UsecaseTask.cs" t="Include" />
             </e>
             <e p="Utils" t="Include">
+              <e p="ApiBuilder.cs" t="Include" />
               <e p="AssetBundleManager.cs" t="Include" />
               <e p="Log.cs" t="Include" />
               <e p="ObjectExtensions.cs" t="Include" />
@@ -949,6 +952,9 @@
             <e p="HumanIntegrationTest.cs" t="Include" />
             <e p="HumanUnitTest.cs" t="Include" />
             <e p="PlayModeTests.asmdef" t="Include" />
+            <e p="Repository" t="Include">
+              <e p="HumanRepositoryTest.cs" t="Include" />
+            </e>
             <e p="Usecase" t="Include">
               <e p="SampleUsecaseTest.cs" t="Include" />
             </e>
