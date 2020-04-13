@@ -1,4 +1,4 @@
-﻿namespace Runtime.Exception
+﻿namespace Project.Scripts.Runtime.Exception
  {
      public class ApiException : System.Exception
      {

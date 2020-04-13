@@ -1,13 +1,11 @@
 ﻿using System.Collections;
 using NUnit.Framework;
-using Runtime.Entity;
+using Project.Scripts.Runtime.Entity;
 using UnityEngine;
 using UnityEngine.TestTools;
 using Zenject;
 
-// using Project.Scripts;
-
-namespace Tests.Runtime
+namespace Project.Tests.Runtime
 {
     public class HumanIntegrationTest : ZenjectIntegrationTestFixture
     {

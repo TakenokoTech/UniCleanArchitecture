@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Windows;
 
-namespace Editor.MenuItem
+namespace Project.Scripts.Editor.MenuItem
 {
     public static class BuildAssetBundles
     {
@@ -21,7 +21,13 @@ namespace Editor.MenuItem
         private static readonly List<AssetBundleBuild> AssetBundleBuilds = new List<AssetBundleBuild>
         {
             new AssetBundleBuild
-                {assetBundleName = "Image", assetNames = new string[1] {"Assets/AssetBundleResources/Image/man.png"}}
+            {
+                assetBundleName = "Image", assetNames = new string[2]
+                {
+                    "Assets/AssetBundleResources/Image/man.png",
+                    "Assets/AssetBundleResources/Image/woman.png"
+                }
+            }
         };
 
         [UnityEditor.MenuItem("Project/Build Asset Bundles")]

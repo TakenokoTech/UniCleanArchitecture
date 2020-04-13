@@ -1,7 +1,8 @@
-﻿using UnityEngine;
+﻿using Runtime;
+using UnityEngine;
 using Zenject;
 
-namespace Runtime
+namespace Project.Scripts.Runtime
 {
     public class MainScript : MonoBehaviour
     {

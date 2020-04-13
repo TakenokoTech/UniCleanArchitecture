@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Runtime.Utils;
+using Project.Scripts.Runtime.Usecase;
+using Project.Scripts.Runtime.Utils;
 using UniRx.Async;
 
 namespace Runtime.Usecase

@@ -1,9 +1,7 @@
 ﻿using NUnit.Framework;
 using Zenject;
 
-// using Project.Scripts;
-
-namespace Tests.Runtime
+namespace Project.Tests.Runtime
 {
     [TestFixture]
     public class HumanUnitTest : ZenjectUnitTestFixture

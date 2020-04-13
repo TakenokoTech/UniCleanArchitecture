@@ -1,9 +1,8 @@
-﻿using System.Threading.Tasks;
-using Runtime.Utils;
+﻿using Project.Scripts.Runtime.Utils;
 using UniRx.Async;
 using Zenject;
 
-namespace Runtime.Repository
+namespace Project.Scripts.Runtime.Repository
 {
     public class HumanRepository
     {

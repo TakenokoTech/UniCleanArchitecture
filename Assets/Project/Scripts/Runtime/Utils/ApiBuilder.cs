@@ -1,9 +1,9 @@
 ﻿using System;
-using Runtime.Exception;
+using Project.Scripts.Runtime.Exception;
 using UniRx.Async;
 using UnityEngine.Networking;
 
-namespace Runtime.Utils
+namespace Project.Scripts.Runtime.Utils
 {
     public class ApiBuilder : IApiBuilder
     {

@@ -1,7 +1,6 @@
 ﻿using System;
-using UnityEditor.PackageManager;
 
-namespace Project.Entity
+namespace Project.Scripts.Runtime.Entity
 {
     public sealed class Pending<TR> : Usecase<TR> where TR : struct
     {
@@ -19,9 +18,9 @@ namespace Project.Entity
 
     public sealed class Rejected<TR> : Usecase<TR> where TR : struct
     {
-        public Exception Error { get; private set; }
+        public System.Exception Error { get; private set; }
 
-        public Rejected(Exception err)
+        public Rejected(System.Exception err)
         {
             Error = err;
         }
@@ -39,20 +38,20 @@ namespace Project.Entity
                 var resolve = (Resolved<TR>) this;
                 return resolve.Value;
             }
-            catch (Exception e)
+            catch (System.Exception e)
             {
                 return null;
             }
         }
 
-        public Exception ExceptionOrNull()
+        public System.Exception ExceptionOrNull()
         {
             try
             {
                 var reject = (Rejected<TR>) this;
                 return reject.Error;
             }
-            catch (Exception e)
+            catch (System.Exception e)
             {
                 return null;
             }
@@ -61,7 +60,7 @@ namespace Project.Entity
         private T? RunCatching<T>(Func<T> block) where T: struct
         {
             try { return block(); }
-            catch (Exception e) { return null; }
+            catch (System.Exception e) { return null; }
         }
     }
 }

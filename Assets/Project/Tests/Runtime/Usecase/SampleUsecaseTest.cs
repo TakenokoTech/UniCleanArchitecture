@@ -3,14 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using NUnit.Framework;
+using Project.Scripts.Runtime.Utils;
 using Runtime.Usecase;
-using Runtime.Utils;
 using UniRx;
 using UniRx.Async;
 using UnityEngine.TestTools;
 using Zenject;
 
-namespace Tests.Runtime.Usecase
+namespace Project.Tests.Runtime.Usecase
 {
     [TestFixture]
     public class SampleUsecaseTest : ZenjectUnitTestFixture

@@ -1,8 +1,8 @@
 ﻿using NUnit.Framework;
-using Runtime.Utils;
+using Project.Scripts.Runtime.Utils;
 using Zenject;
 
-namespace Tests.Runtime.Utils
+namespace Project.Tests.Runtime.Utils
 {
     [TestFixture]
     public class PrefsTest : ZenjectUnitTestFixture

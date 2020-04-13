@@ -1,6 +1,6 @@
 using Zenject;
 
-namespace Runtime.Installer
+namespace Project.Scripts.Runtime.Installer
 {
     public class MainInstaller : Installer<MainInstaller>
     {

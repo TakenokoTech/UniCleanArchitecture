@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Runtime.Utils
+namespace Project.Scripts.Runtime.Utils
 {
     public static class Prefs
     {

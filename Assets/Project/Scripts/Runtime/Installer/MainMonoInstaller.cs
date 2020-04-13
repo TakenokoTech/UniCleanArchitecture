@@ -1,8 +1,9 @@
-using Runtime.Entity;
+using Project.Scripts.Runtime.Entity;
+using Runtime;
 using UnityEngine;
 using Zenject;
 
-namespace Runtime.MonoInstaller
+namespace Project.Scripts.Runtime.Installer
 {
     public class MainMonoInstaller : MonoInstaller<MainMonoInstaller>
     {

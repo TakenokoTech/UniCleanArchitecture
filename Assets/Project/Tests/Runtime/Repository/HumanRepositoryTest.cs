@@ -1,16 +1,14 @@
 ﻿using System;
 using System.Collections;
-using System.Threading.Tasks;
 using NUnit.Framework;
-using Runtime.Repository;
-using Runtime.Utils;
+using Project.Scripts.Runtime.Repository;
+using Project.Scripts.Runtime.Utils;
 using UniRx;
 using UniRx.Async;
-using UnityEngine;
 using UnityEngine.TestTools;
 using Zenject;
 
-namespace Tests.Runtime.Repository
+namespace Project.Tests.Runtime.Repository
 {
     public class HumanRepositoryTest : ZenjectIntegrationTestFixture
     {

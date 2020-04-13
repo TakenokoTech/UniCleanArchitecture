@@ -2,7 +2,7 @@
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace Runtime.Utils
+namespace Project.Scripts.Runtime.Utils
 {
     public class AssetBundleManager : MonoBehaviour
     {
@@ -37,6 +37,13 @@ namespace Runtime.Utils
 
             Dic[path].Bundle.Unload(false);
             Dic.Remove(path);
+        }
+        
+        public static int? GetRefCount(string path)
+        {
+            Log.D(Tag, "GetRefCount");
+            Dic.TryGetValue(path, out var asset);
+            return asset?.RefCount;
         }
         
         private class Asset

@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections;
-using Runtime.Exception;
+using Project.Scripts.Runtime.Exception;
 using UniRx;
 using UniRx.Triggers;
 using UnityEngine;
 using UnityEngine.Networking;
-using Log = Runtime.Utils.Log;
+using Log = Project.Scripts.Runtime.Utils.Log;
 
-namespace Runtime.GameObject
+namespace Project.Scripts.Runtime.GameObject
 {
     public class SampleGameObject : MonoBehaviour
     {

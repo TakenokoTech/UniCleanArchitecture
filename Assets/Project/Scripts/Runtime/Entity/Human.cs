@@ -1,4 +1,4 @@
-﻿namespace Runtime.Entity
+﻿namespace Project.Scripts.Runtime.Entity
 {
     public class Human: IHuman
     {

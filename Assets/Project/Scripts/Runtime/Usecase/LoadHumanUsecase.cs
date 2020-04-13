@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Runtime.Repository;
-using Runtime.Utils;
+using Project.Scripts.Runtime.Repository;
+using Project.Scripts.Runtime.Usecase;
+using Project.Scripts.Runtime.Utils;
 using UniRx.Async;
 using Zenject;
 
