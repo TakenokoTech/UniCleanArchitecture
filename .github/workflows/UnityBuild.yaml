@@ -20,17 +20,15 @@ jobs:
       run: /opt/Unity/Editor/Unity -quit -batchmode -nographics -silent-crashes -logFile -manualLicenseFile ./License.ulf || exit 0
     - name: ls
       run: |
-          CURRENT_DIR=`pwd`
-          echo ${CURRENT_DIR}
+          ls -la
     - name: test-editmode
       run: |
-          /opt/Unity/Editor/Unity -quit -batchmode -nographics -projectPath . -runEditorTests -testPlatform editmode -logFile ./build.log || exit 0
-    - name: result
+          /opt/Unity/Editor/Unity -batchmode -nographics -projectPath . -runEditorTests -testPlatform editmode -logFile ./build.log || exit 0
+    - name: ls
       run: |
           ls -la
-          cat ./build.log
     - uses: actions/upload-artifact@master
       with:
-        name: Build
-        path: test-results
+        name: build.log
+        path: ./build.log
         
