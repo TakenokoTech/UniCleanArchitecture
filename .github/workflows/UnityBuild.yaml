@@ -46,7 +46,7 @@ jobs:
     - uses: actions/checkout@master
     - name: chrome
       run: |
-          apt-get install zip unzip
+          apt-get update -qq && apt-get install zip unzip
           wget https://download-chromium.appspot.com/dl/Linux_ChromiumOS_Full
           ls -la
           unzip Linux_ChromiumOS_Full
