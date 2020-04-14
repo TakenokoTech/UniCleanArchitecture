@@ -47,9 +47,9 @@ jobs:
     - name: chrome
       run: |
           apt-get update -qq && apt-get install zip unzip
-          wget https://download-chromium.appspot.com/dl/Linux_ChromiumOS_Full
+          wget https://download-chromium.appspot.com/dl/Linux_x64
           ls -la
-          unzip Linux_ChromiumOS_Full
+          unzip Linux_x64
           cd chrome-linux
           cp ./chrome_sandbox /usr/local/sbin/chrome-devel-sandbox
           chown root:root /usr/local/sbin/chrome-devel-sandbox
