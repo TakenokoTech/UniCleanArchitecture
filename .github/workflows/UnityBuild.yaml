@@ -32,6 +32,37 @@ jobs:
           ls -la _Build
     - uses: actions/upload-artifact@master
       with:
-        name: Build
+        name: EditorModeResult
         path: ./_Build
         
+  PlayTest:
+    runs-on: ubuntu-latest
+    container: docker://gableroux/unity3d:${{ matrix.unity-tag }}
+    strategy:
+      matrix:
+        unity-tag: [2019.3.7f1]
+
+    steps:
+    - uses: actions/checkout@master
+    - name: create License
+      run: openssl aes-256-cbc -d -in Unity_v2019.x.ulf-cipher -k ${CYPHER_KEY} -md md5 >> ./License.ulf
+      env:
+          CYPHER_KEY: ${{ secrets.CYPHER_KEY }}
+    - name: load License
+      run: /opt/Unity/Editor/Unity -quit -batchmode -nographics -silent-crashes -logFile -manualLicenseFile ./License.ulf || exit 0
+    - name: ls
+      run: |
+          ls -la
+    - name: test-playmode
+      run: |
+          /opt/Unity/Editor/Unity -batchmode -nographics -projectPath . -logFile ./_Build/build.log \
+          -runTests -testPlatform playmode -quit \
+          -testResults ./_Build/test-results.xml || exit 0
+    - name: ls
+      run: |
+          ls -la
+          ls -la _Build
+    - uses: actions/upload-artifact@master
+      with:
+        name: PlayModeResult
+        path: ./_Build    
