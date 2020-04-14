@@ -60,7 +60,7 @@ jobs:
           -testResults ./_Build/test-results.xml || exit 0
     - name: cat log
       run: |
-          cat ./_Build/test-results.xml
+          cat ./_Build/build.log
     - name: ls
       run: |
           ls -la
