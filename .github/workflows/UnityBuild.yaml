@@ -56,7 +56,7 @@ jobs:
     - name: test-playmode
       run: |
           /opt/Unity/Editor/Unity -batchmode -nographics -projectPath . -logFile ./_Build/build.log \
-          -runTests -testPlatform playmode \
+          -runTests -testPlatform StandaloneLinux64 \
           -testResults ./_Build/test-results.xml || exit 0
     - name: cat log
       run: |
