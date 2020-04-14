@@ -40,7 +40,7 @@ jobs:
     container: docker://gableroux/unity3d:${{ matrix.unity-tag }}
     strategy:
       matrix:
-        unity-tag: [2019.3.7f1]
+        unity-tag: [2019.3.7f1-linux-il2cpp, 2019.3.7f1-linux-il2cpp-99-try-il2cpp-base, 2019.3.7f1-linux-il2cpp-99-try-il2cpp]
 
     steps:
     - uses: actions/checkout@master
