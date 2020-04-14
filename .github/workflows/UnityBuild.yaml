@@ -3,7 +3,7 @@ name: UnityBuild
 on: [pull_request]
 
 jobs:
-  editorTestJob:
+  EditorTest:
     runs-on: ubuntu-latest
     container: docker://gableroux/unity3d:${{ matrix.unity-tag }}
     strategy:
@@ -24,10 +24,11 @@ jobs:
           echo ${CURRENT_DIR}
     - name: test-editmode
       run: |
-          /opt/Unity/Editor/Unity -quit -batchmode -nographics -projectPath . -runEditorTests -testPlatform editmode -testResults $(pwd)/editmode-results.xml || exit 0
+          /opt/Unity/Editor/Unity -quit -batchmode -nographics -projectPath . -runEditorTests -testPlatform editmode -logFile ./build.log || exit 0
     - name: result
       run: |
           ls -la
+          cat ./build.log
     - uses: actions/upload-artifact@master
       with:
         name: Build
