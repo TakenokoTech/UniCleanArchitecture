@@ -48,6 +48,7 @@ jobs:
       run: |
           apk add -U unzip && rm -rf /var/cache/apk/*
           wget https://download-chromium.appspot.com/dl/Linux_ChromiumOS_Full?type=snapshots
+          ls -la
           unzip chrome-linux.zip
           cd chrome-linux
           sudo cp ./chrome_sandbox /usr/local/sbin/chrome-devel-sandbox
