@@ -23,12 +23,15 @@ jobs:
           ls -la
     - name: test-editmode
       run: |
-          /opt/Unity/Editor/Unity -batchmode -nographics -projectPath . -runEditorTests -testPlatform editmode -logFile ./build.log || exit 0
+          /opt/Unity/Editor/Unity -batchmode -nographics -projectPath . -logFile ./_Build/build.log \
+          -testPlatform editmode -runEditorTests  \
+          -editorTestsResultFile ./_Build/test-results.xml || exit 0
     - name: ls
       run: |
           ls -la
+          ls -la _Build
     - uses: actions/upload-artifact@master
       with:
-        name: build.log
-        path: ./build.log
+        name: Build
+        path: ./_Build
         
