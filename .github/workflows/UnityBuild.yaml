@@ -46,6 +46,7 @@ jobs:
     - uses: actions/checkout@master
     - name: chrome
       run: |
+          apk add -U unzip && rm -rf /var/cache/apk/*
           wget https://download-chromium.appspot.com/dl/Linux_ChromiumOS_Full?type=snapshots
           unzip chrome-linux.zip
           cd chrome-linux
