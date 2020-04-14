@@ -46,14 +46,14 @@ jobs:
     - uses: actions/checkout@master
     - name: chrome
       run: |
-          sudo apt-get install zip unzip
+          apt-get install zip unzip
           wget https://download-chromium.appspot.com/dl/Linux_ChromiumOS_Full
           ls -la
           unzip Linux_ChromiumOS_Full
           cd chrome-linux
-          sudo cp ./chrome_sandbox /usr/local/sbin/chrome-devel-sandbox
-          sudo chown root:root /usr/local/sbin/chrome-devel-sandbox
-          sudo chmod 4755 /usr/local/sbin/chrome-devel-sandbox
+          cp ./chrome_sandbox /usr/local/sbin/chrome-devel-sandbox
+          chown root:root /usr/local/sbin/chrome-devel-sandbox
+          chmod 4755 /usr/local/sbin/chrome-devel-sandbox
           cd ..
     - name: create License
       run: openssl aes-256-cbc -d -in Unity_v2019.x.ulf-cipher -k ${CYPHER_KEY} -md md5 >> ./License.ulf
