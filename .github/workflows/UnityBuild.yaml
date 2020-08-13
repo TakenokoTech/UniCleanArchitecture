@@ -18,18 +18,11 @@ jobs:
           CYPHER_KEY: ${{ secrets.CYPHER_KEY }}
     - name: load License
       run: /opt/Unity/Editor/Unity -quit -batchmode -nographics -silent-crashes -logFile -manualLicenseFile ./License.ulf || exit 0
-    - name: ls
-      run: |
-          ls -la
     - name: test-editmode
       run: |
           /opt/Unity/Editor/Unity -batchmode -nographics -projectPath . -logFile ./_Build/build.log \
           -testPlatform editmode -runEditorTests  \
           -editorTestsResultFile ./_Build/test-results.xml || exit 0
-    - name: ls
-      run: |
-          ls -la
-          ls -la _Build
     - uses: actions/upload-artifact@master
       with:
         name: EditorModeResult_${{ matrix.unity-tag }}
@@ -61,9 +54,6 @@ jobs:
           CYPHER_KEY: ${{ secrets.CYPHER_KEY }}
     - name: load License
       run: /opt/Unity/Editor/Unity -quit -batchmode -nographics -silent-crashes -logFile -manualLicenseFile ./License.ulf || exit 0
-    - name: ls
-      run: |
-          ls -la
     - name: test-playmode
       run: |
           /opt/Unity/Editor/Unity -batchmode -nographics -projectPath . -logFile ./_Build/build.log \
@@ -72,10 +62,6 @@ jobs:
     - name: cat log
       run: |
           cat ./_Build/build.log
-    - name: ls
-      run: |
-          ls -la
-          ls -la _Build
     - uses: actions/upload-artifact@master
       with:
         name: PlayModeResult_${{ matrix.unity-tag }}
