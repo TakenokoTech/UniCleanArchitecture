@@ -3,7 +3,7 @@ using Project.Scripts.Runtime.Entity;
 using UnityEngine;
 using Zenject;
 
-namespace Runtime
+namespace Project.Scripts.Runtime
 {
     public class Character : MonoBehaviour
     {

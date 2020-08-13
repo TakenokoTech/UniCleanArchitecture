@@ -1,7 +1,7 @@
 using System.Threading;
 using UnityEngine;
 
-namespace Project.Scripts.Runtime.Utils
+namespace Common.Scripts.Runtime.Utils
 {
     public static class Log
     {

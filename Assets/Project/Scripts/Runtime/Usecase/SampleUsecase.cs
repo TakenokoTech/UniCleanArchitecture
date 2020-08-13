@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Threading;
-using System.Threading.Tasks;
-using Project.Scripts.Runtime.Usecase;
-using Project.Scripts.Runtime.Utils;
+using Common.Scripts.Runtime.Usecase;
+using Common.Scripts.Runtime.Utils;
 using UniRx.Async;
 
-namespace Runtime.Usecase
+namespace Project.Scripts.Runtime.Usecase
 {
     public class SampleUsecase : Usecase<SampleUsecase.Param, SampleUsecase.Result>
     {

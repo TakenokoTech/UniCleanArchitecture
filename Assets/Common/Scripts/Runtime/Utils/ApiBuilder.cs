@@ -3,7 +3,7 @@ using Project.Scripts.Runtime.Exception;
 using UniRx.Async;
 using UnityEngine.Networking;
 
-namespace Project.Scripts.Runtime.Utils
+namespace Common.Scripts.Runtime.Utils
 {
     public class ApiBuilder : IApiBuilder
     {

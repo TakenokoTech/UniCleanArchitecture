@@ -2,9 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
+using Common.Scripts.Runtime.Utils;
 using NUnit.Framework;
-using Project.Scripts.Runtime.Utils;
-using Runtime.Usecase;
+using Project.Scripts.Runtime.Usecase;
 using UniRx;
 using UniRx.Async;
 using UnityEngine.TestTools;

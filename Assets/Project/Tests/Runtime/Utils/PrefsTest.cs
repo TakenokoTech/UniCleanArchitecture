@@ -1,5 +1,5 @@
-﻿using NUnit.Framework;
-using Project.Scripts.Runtime.Utils;
+﻿using Common.Scripts.Runtime.Utils;
+using NUnit.Framework;
 using Zenject;
 
 namespace Project.Tests.Runtime.Utils

@@ -1,12 +1,11 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using Common.Scripts.Runtime.Usecase;
+using Common.Scripts.Runtime.Utils;
 using Project.Scripts.Runtime.Repository;
-using Project.Scripts.Runtime.Usecase;
-using Project.Scripts.Runtime.Utils;
 using UniRx.Async;
 using Zenject;
 
-namespace Runtime.Usecase
+namespace Project.Scripts.Runtime.Usecase
 {
     public class LoadHumanUsecase : UsecaseTask<LoadHumanUsecase.Param, LoadHumanUsecase.Result>
     {

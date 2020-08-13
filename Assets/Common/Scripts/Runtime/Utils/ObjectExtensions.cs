@@ -1,7 +1,7 @@
 using System.Linq;
 using System.Reflection;
 
-namespace Project.Scripts.Runtime.Utils
+namespace Common.Scripts.Runtime.Utils
 {
     public static class ObjectExtensions
     {

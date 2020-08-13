@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
+using Common.Scripts.Runtime.Utils;
 using Project.Scripts.Runtime.Entity;
-using Project.Scripts.Runtime.Utils;
 using UniRx.Async;
 
-namespace Project.Scripts.Runtime.Usecase
+namespace Common.Scripts.Runtime.Usecase
 {
     public abstract class UsecaseTask<TPar, TRes> where TPar : struct where TRes : struct
     {

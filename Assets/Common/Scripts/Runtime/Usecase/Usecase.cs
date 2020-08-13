@@ -1,10 +1,10 @@
 ﻿using System;
+using Common.Scripts.Runtime.Utils;
 using Project.Scripts.Runtime.Entity;
 using Project.Scripts.Runtime.Exception;
-using Project.Scripts.Runtime.Utils;
 using UniRx;
 
-namespace Project.Scripts.Runtime.Usecase
+namespace Common.Scripts.Runtime.Usecase
 {
     public abstract class Usecase<TPar, TRes> where TPar : struct where TRes : struct
     {

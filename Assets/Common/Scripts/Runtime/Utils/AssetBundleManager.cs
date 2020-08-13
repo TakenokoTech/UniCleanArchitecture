@@ -2,7 +2,7 @@
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace Project.Scripts.Runtime.Utils
+namespace Common.Scripts.Runtime.Utils
 {
     public class AssetBundleManager : MonoBehaviour
     {
